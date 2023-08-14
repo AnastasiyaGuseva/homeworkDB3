@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      author: Nastya
+      id: DEV-1
+      changes:
+        - sqlFile:
+            path: schema.sql
+            relativeToChangelogFile: true
+        - sqlFile:
+            path: productByName.sql
+            relativeToChangelogFile: true
